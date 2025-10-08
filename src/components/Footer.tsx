@@ -14,7 +14,7 @@ const Footer = () => {
             <a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
               Terms of Service
             </a>
             <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">

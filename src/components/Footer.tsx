@@ -11,16 +11,16 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-wrap justify-center gap-8 text-sm">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
               Privacy Policy
             </a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">
               Support
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">
               Contact
             </a>
           </div>

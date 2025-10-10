@@ -33,7 +33,12 @@ const Hero = () => {
               <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold shadow-[var(--shadow-glow)] transition-all hover:scale-105">
                 Download on iOS
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2 border-primary/30 hover:bg-primary/10">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="text-lg px-8 py-6 border-2 border-primary/30 hover:bg-primary/10"
+                onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Learn More
               </Button>
             </div>

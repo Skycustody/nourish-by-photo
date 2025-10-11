@@ -1,33 +1,36 @@
 import { Camera, Sparkles, TrendingUp } from "lucide-react";
-
-const features = [
-  {
-    icon: Camera,
-    title: "Snap a Photo",
-    description: "Simply take a picture of your meal. No need to search databases or type anything manually.",
-  },
-  {
-    icon: Sparkles,
-    title: "AI Analysis",
-    description: "Our advanced AI instantly recognizes your food and calculates precise calorie and macro information.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Track Progress",
-    description: "Monitor your daily nutrition goals with beautiful charts and insights. Stay on track effortlessly.",
-  },
-];
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Features = () => {
+  const t = useTranslation();
+  
+  const features = [
+    {
+      icon: Camera,
+      title: t.features.step1Title,
+      description: t.features.step1Description,
+    },
+    {
+      icon: Sparkles,
+      title: t.features.step2Title,
+      description: t.features.step2Description,
+    },
+    {
+      icon: TrendingUp,
+      title: t.features.step3Title,
+      description: t.features.step3Description,
+    },
+  ];
+  
   return (
     <section id="how-it-works" className="py-24 bg-muted/30">
       <div className="container px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            How It <span className="text-primary">Works</span>
+            {t.features.title} <span className="text-primary">{t.features.titleHighlight}</span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            Three simple steps to effortless calorie tracking
+            {t.features.subtitle}
           </p>
         </div>
         

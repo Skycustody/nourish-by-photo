@@ -1,4 +1,8 @@
+import { useTranslation } from "@/hooks/useTranslation";
+
 const Footer = () => {
+  const t = useTranslation();
+  
   return (
     <footer className="border-t border-border py-12 bg-muted/20">
       <div className="container px-4">
@@ -6,28 +10,28 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-primary mb-2">Kalora</h3>
             <p className="text-sm text-muted-foreground">
-              AI-powered calorie tracking made simple
+              {t.footer.description}
             </p>
           </div>
           
           <div className="flex flex-wrap justify-center gap-8 text-sm">
             <a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
-              Privacy Policy
+              {t.footer.privacy}
             </a>
             <a href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
-              Terms of Service
+              {t.footer.terms}
             </a>
             <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">
-              Support
+              {t.footer.support}
             </a>
             <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">
-              Contact
+              {t.footer.contact}
             </a>
           </div>
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Kalora. All rights reserved.
+          {t.footer.rights}
         </div>
       </div>
     </footer>

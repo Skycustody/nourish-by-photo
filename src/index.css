@@ -36,16 +36,10 @@ All colors MUST be HSL.
     --input: 0 0% 90%;
     --ring: 172 62% 60%;
 
-    --radius: 1rem;
+    --radius: 0.5rem;
 
-    /* Custom tokens for Kalora */
-    --turquoise: 172 62% 60%;
-    --turquoise-light: 172 62% 70%;
-    --turquoise-dark: 172 62% 50%;
-    
-    --gradient-hero: linear-gradient(135deg, hsl(172 62% 60% / 0.1), hsl(172 62% 70% / 0.05));
-    --shadow-glow: 0 0 40px hsl(172 62% 60% / 0.2);
-    --shadow-soft: 0 10px 30px hsl(0 0% 0% / 0.1);
+    /* Minimalist design tokens */
+    --shadow-subtle: 0 1px 3px hsl(0 0% 0% / 0.05);
   }
 
   .dark {
@@ -78,9 +72,7 @@ All colors MUST be HSL.
     --ring: 172 62% 60%;
 
     /* Dark mode adjustments */
-    --gradient-hero: linear-gradient(135deg, hsl(172 62% 60% / 0.15), hsl(172 62% 70% / 0.08));
-    --shadow-glow: 0 0 60px hsl(172 62% 60% / 0.3);
-    --shadow-soft: 0 10px 40px hsl(0 0% 0% / 0.5);
+    --shadow-subtle: 0 1px 3px hsl(0 0% 0% / 0.1);
   }
 }
 

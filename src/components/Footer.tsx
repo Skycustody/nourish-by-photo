@@ -21,7 +21,7 @@ const Footer = () => {
             <a href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
               {t.footer.terms}
             </a>
-            <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="/support" className="text-muted-foreground hover:text-primary transition-colors">
               {t.footer.support}
             </a>
             <a href="mailto:support@kalora.fi" className="text-muted-foreground hover:text-primary transition-colors">

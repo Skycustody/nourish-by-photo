@@ -7,9 +7,9 @@ export const en = {
     description: "Kalora uses advanced AI to instantly analyze your meals and provide accurate calorie counts. No more manual logging – just snap, analyze, and track.",
     downloadButton: "Download on iOS",
     learnMore: "Learn More",
-    users: "Active Users",
-    rating: "App Store Rating",
-    meals: "Meals Analyzed",
+    feature1: "AI-Powered",
+    feature2: "Available on iOS",
+    feature3: "Privacy First",
     instantAnalysis: "Instant Analysis",
   },
   features: {

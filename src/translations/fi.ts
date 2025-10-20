@@ -7,9 +7,9 @@ export const fi = {
     description: "Kalora käyttää edistynyttä tekoälyä analysoidakseen aterioitasi välittömästi ja tarjotakseen tarkkoja kaloriarviointeja. Ei enää manuaalista kirjaamista – ota vain kuva, analysoi ja seuraa.",
     downloadButton: "Lataa iOS:lle",
     learnMore: "Lue lisää",
-    users: "Aktiivista käyttäjää",
-    rating: "App Store -arvio",
-    meals: "Analysoitua ateriaa",
+    feature1: "AI-Pohjainen",
+    feature2: "Saatavilla iOS:lle",
+    feature3: "Yksityisyys ensin",
     instantAnalysis: "Välitön analyysi",
   },
   features: {

@@ -7,9 +7,9 @@ export const sv = {
     description: "Kalora använder avancerad AI för att omedelbart analysera dina måltider och ge exakta kaloriräkningar. Ingen mer manuell loggning – bara ta ett foto, analysera och spåra.",
     downloadButton: "Ladda ner på iOS",
     learnMore: "Läs mer",
-    users: "Aktiva användare",
-    rating: "App Store-betyg",
-    meals: "Analyserade måltider",
+    feature1: "AI-Driven",
+    feature2: "Tillgänglig på iOS",
+    feature3: "Integritet först",
     instantAnalysis: "Omedelbar analys",
   },
   features: {

@@ -45,20 +45,18 @@ const Hero = () => {
               </Button>
             </div>
             
-            <div className="flex items-center gap-8 pt-4">
-              <div>
-                <div className="text-3xl font-bold text-primary">50K+</div>
-                <div className="text-sm text-muted-foreground">{t.hero.users}</div>
+            <div className="flex flex-wrap items-center gap-4 pt-4">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10">
+                <span className="text-2xl">✨</span>
+                <span className="text-sm font-medium">{t.hero.feature1}</span>
               </div>
-              <div className="h-12 w-px bg-border" />
-              <div>
-                <div className="text-3xl font-bold text-primary">4.8</div>
-                <div className="text-sm text-muted-foreground">{t.hero.rating}</div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10">
+                <span className="text-2xl">📱</span>
+                <span className="text-sm font-medium">{t.hero.feature2}</span>
               </div>
-              <div className="h-12 w-px bg-border" />
-              <div>
-                <div className="text-3xl font-bold text-primary">1M+</div>
-                <div className="text-sm text-muted-foreground">{t.hero.meals}</div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10">
+                <span className="text-2xl">🔒</span>
+                <span className="text-sm font-medium">{t.hero.feature3}</span>
               </div>
             </div>
           </div>
